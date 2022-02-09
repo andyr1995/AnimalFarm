@@ -1,0 +1,15 @@
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\bin\Debug\net6.0\AnimalExampleCSharp.exe
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\bin\Debug\net6.0\AnimalExampleCSharp.deps.json
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\bin\Debug\net6.0\AnimalExampleCSharp.runtimeconfig.json
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\bin\Debug\net6.0\AnimalExampleCSharp.dll
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\bin\Debug\net6.0\ref\AnimalExampleCSharp.dll
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\bin\Debug\net6.0\AnimalExampleCSharp.pdb
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\AnimalExampleCSharp.csproj.AssemblyReference.cache
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\AnimalExampleCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\AnimalExampleCSharp.AssemblyInfoInputs.cache
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\AnimalExampleCSharp.AssemblyInfo.cs
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\AnimalExampleCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\AnimalExampleCSharp.dll
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\ref\AnimalExampleCSharp.dll
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\AnimalExampleCSharp.pdb
+C:\Users\Andrew work\source\repos\AnimalExampleCSharp\AnimalExampleCSharp\obj\Debug\net6.0\AnimalExampleCSharp.genruntimeconfig.cache

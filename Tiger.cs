@@ -18,9 +18,7 @@ namespace AnimalExampleCSharp
 
         public Tiger(String Name, int Age, String Species) : base(Name, Age, Species)
         {
-            Console.WriteLine(Name);
-            Console.WriteLine(Age);
-            Console.WriteLine(Species);
+            
         }
 
         public Tiger(int Age) : this("Name", Age, "Species")
@@ -74,12 +72,12 @@ namespace AnimalExampleCSharp
 
         public void Jumping()
         {
-            Console.WriteLine("Tony leaps from the water!");
+            Console.WriteLine("Tigers leap from the water!");
         }
 
         public void Drowning()
         {
-            Console.WriteLine("Oops Tony drowned");
+            Console.WriteLine("Oops they drowned");
         }
     }
 }

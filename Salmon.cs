@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimalExampleCSharp
 {
-    public class Bat : Mammal , Flying
+    public class Salmon : Fish , Swimming  
     {
         ////////////////////////////Attributes/////////////////
 
@@ -26,24 +26,32 @@ namespace AnimalExampleCSharp
             // implement this later
         }
 
-        public void flight()
+
+        public void swimming()
         {
-            Console.WriteLine("I am flying");
+            Console.WriteLine("Swimming is what i do");
         }
 
-        public void landing()
+        public void Diving()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("I cannot dive deep");
         }
 
-        public void takeOff()
+        public void Jumping()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("However I can leap from the water!");
         }
 
-        public void crashing()
+        public void Drowning()
         {
-            Console.WriteLine("Oops i crashed like a stupid nocturnal animal");
+            Console.WriteLine("I cannot drown, I am a fish");
         }
-    }
+
+
+    } 
+
+
+
+
 }
+

@@ -9,9 +9,9 @@ namespace AnimalExampleCSharp
     public abstract class Animal
     {
         ///////////////////////////////////Attributes////////////////////////////
-        private int age;
-        private string name;
-        public int Age { get; set; }
+
+        public int Age { get; private set; }
+        public string Name { get; set; }
 
 
 
@@ -22,8 +22,8 @@ namespace AnimalExampleCSharp
         public Animal()
             : base()
         {
-            age = 1;
-            name = "bob";
+            Age = 1;
+            Name = "bob";
         }
 
 
@@ -35,24 +35,34 @@ namespace AnimalExampleCSharp
 
         public void sleep(int lengthOfSleep)
         {
-           // sleep method
+            // sleep method
         }
 
         public abstract Animal reproduce(Animal otherParent);
 
 
-        public abstract void breathe();
+        public abstract void Respire();
 
-        public String poo()
+        public String Poo()
         {
-            Age = 16;
-            return "I have logged this";
-            
+            return "I defecate";
         }
+   
 
-        public void die()
+        public void die(int averageAgeOfDeath)
         {
-            // add die method
+            if (averageAgeOfDeath >= 60)
+            {
+                Console.WriteLine("It's a long life!");
+            }
+            else if (averageAgeOfDeath >= 20)
+            {
+                Console.WriteLine("I am neither old nor young");
+            }
+            else
+            {
+                Console.WriteLine("My life is fleeting :(");
+            }
         }
 
     }

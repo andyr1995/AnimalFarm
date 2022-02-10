@@ -18,7 +18,7 @@ namespace AnimalExampleCSharp
 
         ///////////////////////////Methods///////////////////////////////
         
-        public override void breathe()
+        public override void Respire()
         {
             // implement breathe method
         }

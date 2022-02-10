@@ -8,20 +8,35 @@ namespace AnimalExampleCSharp
 {
         public class Eagle : Bird, Flying
         {
-            ////////////////////////////Attributes/////////////////
+        ////////////////////////////Attributes/////////////////
 
 
 
 
 
-            ////////////////////////////Constructors/////////////////////////
+        ////////////////////////////Constructors/////////////////////////
+
+        public Eagle(String Name, int Age, String Species) : base(Name, Age, Species)
+        {
+            Console.WriteLine(Name);
+            Console.WriteLine(Age);
+            Console.WriteLine(Species);
+        }
+
+        public Eagle(int Age) : this("Name", Age, "Species")
+        {
+
+        }
+
+        public Eagle() : this(0)
+        {
+
+        }
 
 
 
-
-
-            ///////////////////////////Methods///////////////////////////////
-            public override void eat(string food)
+        ///////////////////////////Methods///////////////////////////////
+        public override void eat(string food)
             {
                 // implement this later
             }
@@ -43,7 +58,7 @@ namespace AnimalExampleCSharp
 
             public void crashing()
             {
-                throw new NotImplementedException();
+                Console.WriteLine("I am a proud creature and do not crash!");
             }
 
             public void averageAgeOfDeath()

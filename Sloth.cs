@@ -16,7 +16,22 @@ namespace AnimalExampleCSharp
 
         ////////////////////////////Constructors/////////////////////////
 
+        public Sloth(String Name, int Age, String Species) : base(Name, Age, Species)
+        {
+            Console.WriteLine(Name);
+            Console.WriteLine(Age);
+            Console.WriteLine(Species);
+        }
 
+        public Sloth(int Age) : this("Name", Age, "Species")
+        {
+
+        }
+
+        public Sloth() : this(0)
+        {
+
+        }
 
 
 

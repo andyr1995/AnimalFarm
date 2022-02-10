@@ -6,30 +6,42 @@ public class program
     public static void Main(string[] args)
     {
 
-        Bat Billy = new Bat();
-        Billy.Name = "Billy";
-        Console.WriteLine("Hi i'm " + Billy.Name+ " The Bat");
-        Billy.Age = 5;
-        Console.WriteLine("I am currently "+ Billy.Age);
-        Console.WriteLine(Billy.Poo());
-        Billy.flight();
-        Billy.crashing();
-        Billy.die(5);
+        Console.WriteLine("Please state age of Bat");
+        int batAge = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please state name of Bat");
+        String batName = Console.ReadLine();
+        Console.WriteLine("Please state species of Bat");
+        String batSpecies = Console.ReadLine();
+        Console.WriteLine(" ");
+        Bat newBat = new Bat(batName, batAge , batSpecies);
+        Console.WriteLine(newBat.Poo());      
+        newBat.flight();
+        newBat.crashing();
+        newBat.die(20);
         Console.WriteLine(" ");
 
-        Elephant Dumbo = new Elephant();
-        Dumbo.Name = "Dumbo";
-        Console.WriteLine("Hi i'm  " + Dumbo.Name);
-        Console.WriteLine(Dumbo.Poo());
-        Dumbo.flight();
-        Dumbo.crashing();
-        Dumbo.die(65);
-        Console.WriteLine(" ");
-        
 
-        Tiger Tony = new Tiger();
-        Tony.Name = "Tony";
-        Console.WriteLine("The names "+ Tony.Name );
+        Console.WriteLine("Please state age of Elephant");
+        int ElephantAge = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please state name of Elephant");
+        String ElephantName = Console.ReadLine();
+        Console.WriteLine("Please state species of Elephant");
+        String ElephantSpecies = Console.ReadLine();
+        Elephant newElephant = new Elephant(ElephantName, ElephantAge, ElephantSpecies);
+        Console.WriteLine(newElephant.Poo());
+        newElephant.flight();
+        newElephant.crashing();
+        newElephant.die(65);
+        Console.WriteLine(" ");
+
+
+        Console.WriteLine("Please state age of Bat");
+        int Age = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please state name of Bat");
+        String Name = Console.ReadLine();
+        Console.WriteLine("Please state species of Bat");
+        String Species = Console.ReadLine();
+        Tiger Tony = new Tiger("Tony" ,21 ,"Siberian Tiger");
         Console.WriteLine(Tony.Poo());
         Tony.swimming();
         Tony.Diving();
@@ -38,9 +50,14 @@ public class program
         Tony.die(21);
         Console.WriteLine(" ");
 
+
+        Console.WriteLine("Please state age of Bat");
+        int Age = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please state name of Bat");
+        String Name = Console.ReadLine();
+        Console.WriteLine("Please state species of Bat");
+        String Species = Console.ReadLine();
         Salmon Sally = new Salmon();
-        Sally.Name = "Sally";
-        Console.WriteLine("I am a Salmon called "+ Sally.Name);
         Console.WriteLine(Sally.Poo());
         Sally.swimming();
         Sally.Diving();
@@ -49,9 +66,14 @@ public class program
         Sally.die(1);
         Console.WriteLine(" ");
 
-        Sloth Simon = new Sloth();
-        Simon.Name = "Simon";
-        Console.WriteLine("I am a Sloth called " + Simon.Name);
+
+        Console.WriteLine("Please state age of Bat");
+        int Age = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please state name of Bat");
+        String Name = Console.ReadLine();
+        Console.WriteLine("Please state species of Bat");
+        String Species = Console.ReadLine();
+        Sloth Simon = new Sloth("Simon", 15 ,"Pygmy 3-toed Sloth");
         Console.WriteLine(Simon.Poo());
         Simon.moveForward();
         Simon.moveBackwards();
@@ -61,6 +83,33 @@ public class program
         Simon.Drowning();
         Simon.die(17);
         Console.WriteLine(" ");
+
+
+        Console.WriteLine("Please state age of Bat");
+        int Age = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please state name of Bat");
+        String Name = Console.ReadLine();
+        Console.WriteLine("Please state species of Bat");
+        String Species = Console.ReadLine();
+        Eagle Elliot = new Eagle("Elliot", 17 ,"Golden Eagle");
+        Console.WriteLine(Elliot.Poo());
+        Elliot.flight();
+        Elliot.crashing();
+        Elliot.die(20);
+        Console.WriteLine(" ");
+
+
+        Console.WriteLine("Please state age of Bat");
+        int Age = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please state name of Bat");
+        String Name = Console.ReadLine();
+        Console.WriteLine("Please state species of Bat");
+        String Species = Console.ReadLine();
+        Tortoise Jonathan = new Tortoise("Jonathan", 190, "Seychelles giant tortoise");
+        Console.WriteLine(Jonathan.Poo());
+        Jonathan.moveForward();
+        Jonathan.moveBackwards();
+        Jonathan.die(200);
 
 
 

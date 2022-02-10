@@ -16,7 +16,22 @@ namespace AnimalExampleCSharp
 
         ////////////////////////////Constructors/////////////////////////
 
+        public Tiger(String Name, int Age, String Species) : base(Name, Age, Species)
+        {
+            Console.WriteLine(Name);
+            Console.WriteLine(Age);
+            Console.WriteLine(Species);
+        }
 
+        public Tiger(int Age) : this("Name", Age, "Species")
+        {
+
+        }
+
+        public Tiger() : this(0)
+        {
+
+        }
 
 
 

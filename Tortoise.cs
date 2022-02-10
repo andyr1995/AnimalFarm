@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimalExampleCSharp
 {
-    public class Elephant : Mammal , Flying
+    public class Tortoise : Reptile, Flying
     {
         ////////////////////////////Attributes/////////////////
 
@@ -16,19 +16,19 @@ namespace AnimalExampleCSharp
 
         ////////////////////////////Constructors/////////////////////////
 
-        public Elephant(String Name, int Age, String Species) : base(Name, Age, Species)
+        public Tortoise(String Name, int Age, String Species) : base(Name, Age, Species)
         {
             Console.WriteLine(Name);
             Console.WriteLine(Age);
             Console.WriteLine(Species);
         }
 
-        public Elephant(int Age) : this("Name", Age, "Species")
+        public Tortoise(int Age) : this("Jonathan", Age, "Seychelles giant tortoise")
         {
 
         }
 
-        public Elephant() : this(0)
+        public Tortoise() : this(0)
         {
 
         }
@@ -43,7 +43,11 @@ namespace AnimalExampleCSharp
 
         public void flight()
         {
-            Console.WriteLine("i am flying");
+            Console.WriteLine("i am soaring like an Eagle!");
+        }
+        public void takeOff()
+        {
+            throw new NotImplementedException();
         }
 
         public void landing()
@@ -51,14 +55,19 @@ namespace AnimalExampleCSharp
             throw new NotImplementedException();
         }
 
-        public void takeOff()
-        {
-            throw new NotImplementedException();
-        }
 
         public void crashing()
         {
-            Console.WriteLine("Oops i crashed because elephants arent supposed to fly");
+            Console.WriteLine("I am a proud creature and do not crash!");
+        }
+        public void moveForward()
+        {
+            Console.WriteLine("Slowly but surely I move forward");
+        }
+
+        public void moveBackwards()
+        {
+            Console.WriteLine("I don't have time to go back");
         }
 
         public void averageAgeOfDeath()
@@ -67,4 +76,3 @@ namespace AnimalExampleCSharp
         }
     }
 }
-

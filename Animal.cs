@@ -12,6 +12,7 @@ namespace AnimalExampleCSharp
 
         public int Age { get; set; }
         public string Name { get; set; }
+        public string Species { get; set; }
 
 
 
@@ -19,12 +20,17 @@ namespace AnimalExampleCSharp
 
 
         /////////////////////////////////Constructors///////////////////////////////
-        public Animal()
-            : base()
+       
+        public Animal(String Name, int Age, String Species)
         {
-            Age = 1;
-            Name = "bob";
+            this.Name = Name;
+            this.Age = Age;
+            this.Species = Species;
+
+
         }
+
+
 
 
 
@@ -51,18 +57,27 @@ namespace AnimalExampleCSharp
 
         public void die(int averageAgeOfDeath)
         {
-            if (averageAgeOfDeath >= 60)
+
+            if (averageAgeOfDeath >= 100)
+            { 
+                Console.WriteLine("When will it end");
+            }
+
+            else if (averageAgeOfDeath <100 && averageAgeOfDeath >20)
             {
                 Console.WriteLine("It's a long life!");
             }
-            else if (averageAgeOfDeath >= 20)
+
+            else if (averageAgeOfDeath <=20 && averageAgeOfDeath >10)
             {
                 Console.WriteLine("I am neither old nor young");
             }
-            else
+
+            else if (averageAgeOfDeath <= 10)
             {
                 Console.WriteLine("My life is fleeting :(");
             }
+
         }
 
     }

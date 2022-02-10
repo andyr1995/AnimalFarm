@@ -14,7 +14,15 @@ namespace AnimalExampleCSharp
 
 
         ////////////////////////////Constructors/////////////////////////
+        public Mammal() : base("Default" ,1, "Default")
+        {
 
+        }
+
+        public Mammal(String Name, int Age, String Species) : base(Name, Age, Species)
+        {
+
+        }
 
         ///////////////////////////Methods///////////////////////////////
         

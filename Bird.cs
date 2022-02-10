@@ -9,17 +9,25 @@ namespace AnimalExampleCSharp
    
         public abstract class Bird : Animal
         {
-            ////////////////////////////Attributes
+        ////////////////////////////Attributes
 
 
 
 
-            ////////////////////////////Constructors/////////////////////////
+        ////////////////////////////Constructors/////////////////////////
+        public Bird() : base("Default", 1, "Default")
+        {
 
+        }
 
-            ///////////////////////////Methods///////////////////////////////
+        public Bird(String Name, int Age, String Species) : base(Name, Age, Species)
+        {
 
-            public override void Respire()
+        }
+
+        ///////////////////////////Methods///////////////////////////////
+
+        public override void Respire()
             {
                 // implement breathe method
             }

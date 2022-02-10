@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace AnimalExampleCSharp
 {
-    public abstract class Fish : Animal
-        {
+    public abstract class Reptile : Animal
+    {
         ////////////////////////////Attributes
 
 
 
 
         ////////////////////////////Constructors/////////////////////////
-        public Fish() : base("Default", 1, "Default")
+        public Reptile() : base("Default", 1, "default")
         {
 
         }
 
-        public Fish(String Name, int Age, String Species) : base(Name, Age, Species)
+        public Reptile(String Name, int Age, String Species) : base(Name, Age, Species)
         {
 
         }
@@ -27,14 +27,14 @@ namespace AnimalExampleCSharp
         ///////////////////////////Methods///////////////////////////////
 
         public override void Respire()
-            {
-                // implement breathe method
-            }
-
-            public override Fish reproduce(Animal otherParent)
-            {
-                return null;
-            }
-
+        {
+            // implement breathe method
         }
+
+        public override Reptile reproduce(Animal otherParent)
+        {
+            return null;
+        }
+
+    }
 }

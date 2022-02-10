@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace AnimalExampleCSharp
 {
-    internal class Movement
+    public interface Movement
     {
         public interface Walking
         {
-            public void MoveForward();
-            public void MoveBackwards();
-            public void MoveRight();
-            public void MoveLeft();
+            public void moveForward();
+            public void moveBackwards();
+            public void moveRight();
+            public void moveLeft();
         }
     }
 }

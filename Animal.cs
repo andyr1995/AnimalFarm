@@ -10,7 +10,7 @@ namespace AnimalExampleCSharp
     {
         ///////////////////////////////////Attributes////////////////////////////
 
-        public int Age { get; private set; }
+        public int Age { get; set; }
         public string Name { get; set; }
 
 
